@@ -1,0 +1,117 @@
+.parent{
+  background:linear-gradient(to right,purple,pink);
+}
+.grid{   
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+  }
+  .class{
+     background-color:rgb(249, 236, 55);
+     text-align: center;
+     height: 150px;  
+     /* width: 100%; */
+  }
+  .text-block h1{
+    position: absolute;
+    background-color: rgb(249, 236, 55);
+    margin-top: -250px;
+    margin-left: 50px;
+    /* color: white; */
+    width: 250px;
+    padding: 10px;
+  }
+  .text-block p{
+    position: absolute;
+    background-color: rgb(249, 236, 55);
+    margin-top: -170px;
+    margin-left: 50px;
+    /* color: white; */
+    width: 130px;
+  }
+  .one{
+      grid-column: 1/4;
+      grid-row: 1/3;
+      height: 310px;
+      width: 100px;
+  }
+  .two{
+      grid-column: 4/6;
+      grid-row: 1/2;
+      font-size: 30px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       align-content: center;
+  }
+  .three{
+      grid-column: 4/6;
+      grid-row: 2/3;
+      font-size: 30px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      align-content: center;
+  }
+  .four,.five,.six,.seven,.eight{
+    height: 50px;
+    width: 280px;
+    margin-top: 10px;
+    align-content: center;
+    /* justify-content: center; */
+  }
+  .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  .image1{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .Taco{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .image5{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+  }
+  .image6{
+    text-align: center;
+    background-color: white;
+    padding: 60px;
+    text-align: left;
+  }
+  .image7{
+    background-color: white;
+  }
+  .paragraph{
+    font-weight: 900;
+    font-size: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .para1{
+    font-size: 30px;
+    font-weight: 900;
+  }
+.photograph{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  padding: 20px;
+}
+button{
+  background-color:rgb(249, 236, 55);
+  padding: 10px;
+}
+.pht{
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 30px;
+}

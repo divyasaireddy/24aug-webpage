@@ -1,0 +1,22 @@
+header{
+    background-color: pink;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+   
+}
+
+.img1{
+    margin-top: 10px;
+    margin-left: 150px;
+    display: grid;
+    /* grid-template-rows: 60px 100px; */
+}
+.img2{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    /* grid-template-rows: 60px 100px; */
+}
+
